@@ -22602,30 +22602,6 @@ settings:
     let cssPath = "styles";
   </script>
 
-  <!-- Graph View Data -->
-  <script>
-    let nodes = {
-      "nodeCount": 5,
-      "linkCount": 13,
-      "radii": [7, 7, 6.888888888888889, 6.888888888888889, 6.4375],
-      "labels": ["index", "Agile Frameworks", "Lean and Six Sigma", "Leadership Responsibilities", "Agile Consultancies"],
-      "paths": ["index.html", "agile-frameworks.html", "lean-and-six-sigma.html", "leadership-responsibilities.html", "agile-consultancies.html"],
-      "linkSources": [4, 1, 1, 1, 1, 0, 0, 0, 0, 3, 3, 2, 2],
-      "linkTargets": [0, 0, 3, 2, 4, 1, 4, 3, 2, 0, 1, 0, 1]
-    };
-    let attractionForce = 1;
-    let linkLength = 10;
-    let repulsionForce = 150;
-    let centralForce = 3;
-    let edgePruning = 100;
-  </script>
-
-  <script type="module" src="scripts/graph_view.js"></script>
-
-  <script src="scripts/graph_wasm.js"></script>
-
-  <script src="scripts/tinycolor.js"></script>
-
   <script>
     async function loadDocument(url, pushHistory = true) {
       let response;
@@ -23041,28 +23017,28 @@ settings:
             <h1 data-heading="[[Agile Frameworks]]" id="Agile_Frameworks">
               <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
                   <path d="M3 8L12 17L21 8"></path>
-                </svg></div><a data-href="Agile Frameworks" href="agile-frameworks.html" class="internal-link" target="_self" rel="noopener">Agile Frameworks</a>
+                </svg></div><a data-href="Agile Frameworks" href="Agile Frameworks.html" class="internal-link" target="_self" rel="noopener">Agile Frameworks</a>
             </h1>
           </div>
           <div>
             <h1 data-heading="[[Agile Consultancies]]" id="Agile_Consultancies">
               <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
                   <path d="M3 8L12 17L21 8"></path>
-                </svg></div><a data-href="Agile Consultancies" href="agile-consultancies.html" class="internal-link" target="_self" rel="noopener">Agile Consultancies</a>
+                </svg></div><a data-href="Agile Consultancies" href="Agile Consultancies.html" class="internal-link" target="_self" rel="noopener">Agile Consultancies</a>
             </h1>
           </div>
           <div>
             <h1 data-heading="[[Leadership Responsibilities]]" id="Leadership_Responsibilities">
               <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
                   <path d="M3 8L12 17L21 8"></path>
-                </svg></div><a data-href="Leadership Responsibilities" href="leadership-responsibilities.html" class="internal-link" target="_self" rel="noopener">Leadership Responsibilities</a>
+                </svg></div><a data-href="Leadership Responsibilities" href="Leadership Responsibilities.html" class="internal-link" target="_self" rel="noopener">Leadership Responsibilities</a>
             </h1>
           </div>
           <div>
             <h1 data-heading="[[Lean and Six Sigma]]" id="Lean_and_Six_Sigma">
               <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
                   <path d="M3 8L12 17L21 8"></path>
-                </svg></div><a data-href="Lean and Six Sigma" href="lean-and-six-sigma.html" class="internal-link" target="_self" rel="noopener">Lean and Six Sigma</a>
+                </svg></div><a data-href="Lean and Six Sigma" href="Lean and Six Sigma.html" class="internal-link" target="_self" rel="noopener">Lean and Six Sigma</a>
             </h1>
           </div>
           <div class="mod-footer"></div>
@@ -23071,16 +23047,6 @@ settings:
     </div>
     <div id="sidebar" class="sidebar-right">
       <div class="sidebar-content">
-        <h6 style="margin: 1em 1em 1em 12px;">Interactive Graph</h6>
-        <div class="graph-view-placeholder">
-          <div class="graph-view-container">
-            <div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-arrow-up-right">
-                <line x1="7" y1="17" x2="17" y2="7"></line>
-                <polyline points="7 7 17 7 17 17"></polyline>
-              </svg></div>
-            <canvas id="graph-canvas" width="512px" height="512px"></canvas>
-          </div>
-        </div>
         <div class="outline-container" data-size="0">
           <div class="outline-header">
             <h6 style="margin: 1em 1em 1em 0px;">Table of Contents</h6><button class="clickable-icon collapse-all"><iconify-icon icon="ph:arrows-in-line-horizontal-bold" width="18px" height="18px" rotate="90deg" color="currentColor"></iconify-icon></button>
